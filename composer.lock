@@ -767,12 +767,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-service-bus/transport-redis.git",
-                "reference": "52c80d3c69d4efab22a79eef52eeb8abd4bec154"
+                "reference": "b3cc5bbf12554ecc847b7ffe2d03e97a2e6d5323"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-service-bus/transport-redis/zipball/52c80d3c69d4efab22a79eef52eeb8abd4bec154",
-                "reference": "52c80d3c69d4efab22a79eef52eeb8abd4bec154",
+                "url": "https://api.github.com/repos/php-service-bus/transport-redis/zipball/b3cc5bbf12554ecc847b7ffe2d03e97a2e6d5323",
+                "reference": "b3cc5bbf12554ecc847b7ffe2d03e97a2e6d5323",
                 "shasum": ""
             },
             "require": {
@@ -807,12 +807,11 @@
             ],
             "description": "Redis transport implementation",
             "keywords": [
-                "AMQP",
                 "async-php",
                 "command-bus",
                 "messaging"
             ],
-            "time": "2019-03-05T07:39:22+00:00"
+            "time": "2019-03-05T09:27:16+00:00"
         },
         {
             "name": "ramsey/uuid",
