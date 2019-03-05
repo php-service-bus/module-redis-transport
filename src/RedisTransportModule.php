@@ -72,7 +72,7 @@ final class RedisTransportModule implements ServiceBusModule
             Transport::class                             => new Definition(RedisTransport::class, [
                 new Reference(RedisTransportConnectionConfiguration::class),
                 new Reference('service_bus.logger'),
-                true,
+                false,
             ]),
         ]);
     }
