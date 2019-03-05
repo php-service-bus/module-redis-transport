@@ -32,8 +32,8 @@
   "require": {
     "php": ">=7.2",
     "ext-json": "*",
-    "amphp/redis": "^0.3",
-    "php-service-bus/transport-redis": "v3.0.x-dev"
+    "php-service-bus/transport-redis": "v3.0.8",
+    "amphp/redis": "^0.3"
   },
   "require-dev": {
     "php-service-bus/code-style-config": "^v0.1",

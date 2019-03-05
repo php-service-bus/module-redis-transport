@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "05b77f591026d4daa9847570ccd7eaf8",
+    "content-hash": "9568a79edccc521bbaae0c2bb957c8a7",
     "packages": [
         {
             "name": "amphp/amp",
@@ -763,7 +763,7 @@
         },
         {
             "name": "php-service-bus/transport-redis",
-            "version": "v3.0.x-dev",
+            "version": "v3.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-service-bus/transport-redis.git",
@@ -4033,9 +4033,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "php-service-bus/transport-redis": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
