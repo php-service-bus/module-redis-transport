@@ -32,7 +32,7 @@
   "require": {
     "php": ">=7.2",
     "ext-json": "*",
-    "php-service-bus/transport-redis": "v3.0.8",
+    "php-service-bus/transport-redis": "^v3.2",
     "amphp/redis": "^0.3"
   },
   "require-dev": {
