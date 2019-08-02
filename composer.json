@@ -30,17 +30,17 @@
     }
   },
   "require": {
-    "php": ">=7.2",
+    "php": ">=7.3",
     "ext-json": "*",
-    "php-service-bus/transport-redis": "^v3.2",
+    "php-service-bus/transport-redis": "v3.3.*",
     "amphp/redis": "^0.3"
   },
   "require-dev": {
     "php-service-bus/code-style-config": "^v0.1",
-    "symfony/dependency-injection": "^v4.2",
+    "symfony/dependency-injection": "v4.3.*",
     "phpunit/phpunit": "^8",
     "vimeo/psalm": "^v3",
-    "phpstan/phpstan": "^0.11"
+    "phpstan/phpstan": "0.11.*"
   },
   "prefer-stable": true,
   "minimum-stability": "dev",
