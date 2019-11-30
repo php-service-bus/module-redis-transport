@@ -30,16 +30,16 @@
     }
   },
   "require": {
-    "php": ">=7.3",
+    "php": ">=7.4",
     "ext-json": "*",
-    "php-service-bus/transport-redis": "v3.3.*",
-    "amphp/redis": "v0.3.*"
+    "php-service-bus/transport-redis": "v4.0.*",
+    "amphp/redis": "v1.0.*"
   },
   "require-dev": {
-    "php-service-bus/code-style-config": "v0.1.*",
-    "symfony/dependency-injection": "v4.3.*",
-    "phpunit/phpunit": "v8.3.*",
-    "vimeo/psalm": "v3.4.*",
+    "php-service-bus/code-style-config": "v1.1.*",
+    "symfony/dependency-injection": "v5.0.*",
+    "phpunit/phpunit": "v8.4.*",
+    "vimeo/psalm": "v3.7.*",
     "phpstan/phpstan": "v0.11.*"
   },
   "prefer-stable": true,

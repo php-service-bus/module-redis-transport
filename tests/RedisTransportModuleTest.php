@@ -28,9 +28,6 @@ final class RedisTransportModuleTest extends TestCase
      * @test
      *
      * @throws \Throwable
-     *
-     * @return void
-     *
      */
     public function boot(): void
     {

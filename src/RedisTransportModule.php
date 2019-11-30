@@ -27,21 +27,12 @@ use Symfony\Component\DependencyInjection\Reference;
  */
 final class RedisTransportModule implements ServiceBusModule
 {
-    /**
-     * @var string
-     */
-    private $connectionDSN;
+    private string $connectionDSN;
 
-    /**
-     * @var string
-     */
-    private $defaultDestinationChannel;
+    private string $defaultDestinationChannel;
 
     /**
      * Connection DSN example: tcp://test-host:6379?timeout=10&password=qwerty.
-     *
-     * @param string $connectionDSN
-     * @param string $defaultDestinationChannel
      */
     public function __construct(string $connectionDSN, string $defaultDestinationChannel)
     {
@@ -78,10 +69,6 @@ final class RedisTransportModule implements ServiceBusModule
 
     /**
      * Push parameters to container.
-     *
-     * @param ContainerBuilder $containerBuilder
-     *
-     * @return void
      */
     private function injectParameters(ContainerBuilder $containerBuilder): void
     {
