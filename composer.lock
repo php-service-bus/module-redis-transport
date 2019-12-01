@@ -858,16 +858,16 @@
         },
         {
             "name": "php-service-bus/transport-common",
-            "version": "v4.0.0",
+            "version": "v4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-service-bus/transport-common.git",
-                "reference": "b0db4c3a6562054f6902e17ccc804f3bf5531341"
+                "reference": "755f49a2b8ef24fdc5df460ed942723e677b35a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-service-bus/transport-common/zipball/b0db4c3a6562054f6902e17ccc804f3bf5531341",
-                "reference": "b0db4c3a6562054f6902e17ccc804f3bf5531341",
+                "url": "https://api.github.com/repos/php-service-bus/transport-common/zipball/755f49a2b8ef24fdc5df460ed942723e677b35a7",
+                "reference": "755f49a2b8ef24fdc5df460ed942723e677b35a7",
                 "shasum": ""
             },
             "require": {
@@ -904,20 +904,20 @@
                 "command-bus",
                 "messaging"
             ],
-            "time": "2019-11-30T00:31:45+00:00"
+            "time": "2019-11-30T23:11:24+00:00"
         },
         {
             "name": "php-service-bus/transport-redis",
-            "version": "v4.0.0",
+            "version": "v4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-service-bus/transport-redis.git",
-                "reference": "6953458060f299d4a5fa6cb20800af4fd1814506"
+                "reference": "afecf7586f4ef4333fd4d1277af4ccb6dc12cfea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-service-bus/transport-redis/zipball/6953458060f299d4a5fa6cb20800af4fd1814506",
-                "reference": "6953458060f299d4a5fa6cb20800af4fd1814506",
+                "url": "https://api.github.com/repos/php-service-bus/transport-redis/zipball/afecf7586f4ef4333fd4d1277af4ccb6dc12cfea",
+                "reference": "afecf7586f4ef4333fd4d1277af4ccb6dc12cfea",
                 "shasum": ""
             },
             "require": {
@@ -957,7 +957,7 @@
                 "command-bus",
                 "messaging"
             ],
-            "time": "2019-11-30T21:51:34+00:00"
+            "time": "2019-11-30T23:58:45+00:00"
         },
         {
             "name": "ramsey/uuid",
